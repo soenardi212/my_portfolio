@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anybody&family=Beau+Rivage&family=Cinzel&family=Kdam+Thmor+Pro&family=Reggae+One&family=Tiro+Telugu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nav.css">
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!-- dlm css flex/gridd , align adalah vertical (garis lurus atas bawah) & justify adalah horizontal (garis lurus kiri kanan-->
+<body>
+<nav>
+  <!-- awal navigasi -->
+  <div class="logo">
+    <h3>Soenardi</h3>
+  </div>
+  
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#project">Services
+    </a></li>
+    <li><a href="#kontak">Contact</a>
+    </li>
+    <!--<li><a href="#">About</a></li>-->
+  </ul>
+  
+  <div class="menu-toggle">
+    <input type="checkbox">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+  <!-- akhir navigasi -->
+  <!--span & input adalah anak dr menu-toggle (:nth child()) , input adalah anak yg ke-1 span yg ke-2 -->
+  
+  <!--menu-toggle input:checked ~ span:nth-child(2) maksudnya , ketika input di check tlg carikan saudaranya anak yg ke 2 ini di sebut mode sibling-->
+  
+  <!--span adalah sodara dr input , sedangkan li adalah ponakan nya-->
+  
+  <!-- awal hero -->
+  <section id="hero">
+  <div class="abc">
+    <h2 class="abe">Hallo semua &#128578;, saya</h2>
+  <span class="abd">
+    <div id="typing">helmi sunardi</div>
+    <div id="line">|</div>
+    </span>
+  <h3 class="abe">web developer.</h3>
+    <h3 class="abe"><pre>belajar web programming itu 
+sangat menyenangkan <span class="abf">lho!</span></pre></h3>
+<div class="zzz"><a href="#">hubungi saya</a></div>
+  </div>
+  <div class="thumbnail">
+    <img src="img2.jpg" alt="helmi" class="gambar">
+  </div>
+  </section>
+            <!-- akhir hero -->
+  
+  <!-- awal about -->
+  <section id="about">
+    <div class="abh">
+      <h4 class="abi">tentang saya</h4>
+<h2 class="abk">yuk kita belajar web programming</h2>
+  <h3 class="abj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar vel magna tincidunt dapibus. Nullam pellentesque quam ut quam</h3>
+    </div>
+    <div class="abhh">
+      <h3 class="abk">mari berteman</h3>
+      <h3 class="abj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar vel magna tincidunt dapibus. Nullam pellentesque quam ut quam iaculis, dapibus mattis ligula varius. Aliquam pretium ipsum a nulla consequat facilisis.</h3>
+  
+  <ul class="abl">
+  <li>
+    <a href="#about">
+      <i class="fa fa-facebook-square"></i></a></li>
+  <li><a href="#about">
+    <i class="fa fa-twitter-square"></i></a></li>
+  <li><a href="#about">
+    <i class="fa fa-github-square">
+    </i></a></li>
+   <li><a href="#about">
+     <i class="fa fa-instagram"></i>
+     </a></li>
+   </ul>
+    
+    </div>
+  </section>
+  <!-- akhir about -->
+  
+  <!-- awal project -->
+  <section id="project">
+    <h2 class="tiga">My_Services</h2>
+    <div class="tampilan">
+     <div class="satu">
+       <fieldset>
+         <legend><h2 class="empat"><i class="fa fa-desktop"></i>
+         </h2></legend>
+     <span><h3 class="lima">Web Design</h3></span>
+         <h3 class="dua">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar vel magna tincidunt dapibus.</h3>
+       </fieldset>
+     </div>
+     
+     <div class="satu">
+       <fieldset>
+         <legend><h2 class="empat"><i class="fa fa-dropbox">
+           </i></h2></legend>
+           <h3 class="lima">Branding</h3>
+         <h3 class="dua" id="demo1">
+         </h3>
+       </fieldset>
+     </div>
+     <div class="satu">
+       <fieldset>
+         <legend><h2 class="empat"><i class="fa fa-drivers-license"></i></h2></legend>
+       <h3 class="lima">Development</h3>
+         <h3 class="dua" id="demo2">
+         </h3>
+       </fieldset>
+     </div>
+     <div class="satu">
+       <fieldset>
+         <legend><h2 class="empat"><i class="fa fa-diamond"></i></h2></legend>
+         <h3 class="lima">Creative Design</h3>
+         <h3 class="dua" id="demo3">
+         </h3>
+       </fieldset>
+     </div>
+     <div class="satu">
+       <fieldset>
+         <legend><h2 class="empat"><i class="fa fa-laptop"></i></h2></legend>
+         <h3 class="lima">Web Responsive</h3>
+         <h3 class="dua" id="demo4">
+         </h3>
+       </fieldset>
+     </div>
+     <div class="satu">
+       <fieldset>
+         <legend><h2 class="empat"><i class="fa fa-camera"></i></h2></legend>
+         <h3 class="lima">Retina Ready</h3>
+         <h3 class="dua" id="demo5">
+         </h3>
+       </fieldset>
+     </div>
+     </div>
+  </section>
+  <!-- akhir project -->
+  
+  <!-- awal kontak -->
+  <section id="kontak">
+    <p class="enam">Contact Me</p>
+   
+   <div class="dlpn">
+     <div>
+   <label for="Name"><p class="warna">Name :</p></label>
+   <p><input type="text" class="tujuh"></p></div>
+   
+   <div>
+   <label for="Company"><p class="warna">Company :</p></label>
+   <p><input type="text" class="tujuh"></p></div></div><br>
+   
+   <div class="dlpn">
+     <div>
+   <label for="Email"><p class="warna">Email :</p></label>
+   <p><input type="email" class="tujuh"></p></div>
+   
+  <div>
+   <label for="Phone"><p class="warna">Phone :</p></label>
+   <p><input type="number" class="tujuh"></p></div></div>
+   
+   <div class="sembilan">
+     <div>
+   <label for="Massage"><p class="warna">Massage :</p></label></div>
+   <p><textarea type="text" class="sembilan1"></textarea></p></div>
+   
+   <button type="submit" class="tombol">submit</button>
+    
+  </section>
+  <!-- akhir kontak -->
+<script src="nav.js"></script>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>-->
+</body>
+
+</html>
