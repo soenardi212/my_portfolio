@@ -575,6 +575,7 @@ fieldset{
    }
    #hero{
      margin-top: 60px;
+     border-style: none;
    }
    #hero .abc{
      padding: 10px 15px;
