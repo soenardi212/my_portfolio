@@ -296,7 +296,7 @@ fieldset{
   font-size: 30px;
 }
 .tujuh{/*tag input*/
-  max-width: 100%;
+  width: 120%;
   margin-top: 20px;
   background: transparent;
   border: 2px solid white;
@@ -481,7 +481,7 @@ fieldset{
   font-size: 20px;
   }
   .tujuh{/*tag input*/
-  max-width: 100%;
+  width: 100%;
   margin-top: 20px;
   background: transparent;
   border: 1px solid white;
