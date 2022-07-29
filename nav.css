@@ -493,7 +493,7 @@ fieldset{
   .dlpn{/*mengatur display tag input*/
   display: flex;
   justify-content: space-between;
-  padding: 0 auto;
+  padding: 0 50px 0 40px;
   }
   .sembilan{
   text-align: center;
