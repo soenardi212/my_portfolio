@@ -400,6 +400,8 @@ fieldset{
             /*awal about*/
    #about{
      /*border-style: none;*/
+     border: 12px solid orangered;
+     border-style: solid none solid none;
    }
    .abh{
      padding: 35px;
@@ -435,7 +437,7 @@ fieldset{
           /*awal project*/
   #project{
    padding: 15px 0 50px 0;
-   border: 15px solid orangered;
+   border: 12px solid orangered;
    border-style: none none solid none;
   }
   .tampilan{
