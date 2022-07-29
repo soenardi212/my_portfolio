@@ -296,7 +296,7 @@ fieldset{
   font-size: 30px;
 }
 .tujuh{/*tag input*/
-  width: 120%;
+  max-width: 120%;
   margin-top: 20px;
   background: transparent;
   border: 2px solid white;
@@ -308,7 +308,7 @@ fieldset{
 .dlpn{/*mengatur display tag input*/
   display: flex;
   justify-content: space-between;
-  padding: 0 100px 0 30px;
+  padding: 0 100px 0 80px;
   
 }
 .sembilan{
